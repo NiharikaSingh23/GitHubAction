@@ -18,7 +18,7 @@ jobs:
       - name: welcome user
         run: echo test is starting
    
-  deploye:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
