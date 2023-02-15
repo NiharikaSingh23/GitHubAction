@@ -16,12 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: welcome user
-        run: echo test is starting
-   
+        run: echo test is starting   
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: welcome user
+      - name: deploy
         run: deploy is starting
       
