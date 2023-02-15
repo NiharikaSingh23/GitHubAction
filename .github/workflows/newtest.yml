@@ -22,5 +22,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: deploy
-        run: deploy is starting
+        run: echo deploy is starting
       
